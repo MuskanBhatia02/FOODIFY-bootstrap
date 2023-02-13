@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+
+    <style>
+        .btn-send {
+            display: inline-block;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--red);
+            color: var(--red);
+            cursor: pointer;
+            font-size: 1.7rem;
+            border-radius: .5rem;
+            position: relative;
+            overflow: hidden;
+            margin-top: 1rem;
+            font-family: 'Nunito', sans-serif;
+           
+        }
+
+        .btn-send :hover{
+            color: #ff0000;
+            background-color: #f59999;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="order" id="order">
+
+        <h1 class="heading"> <span>Contact</span> Us </h1>
+
+        <div class="row">
+
+            <div class="location">
+                <h2 class="heading_h3h_loca" style="color: #ff0000;"><strong>LOCATION</strong></h2><br>
+                <iframe class="pccoe_map" width="100%" height="80%"
+                    src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pimpri+Chinchwad+College+Of+Engineering,+Sector+No.+26,+Pimpri+Chinchwad,+Maharashtra&amp;aq=0&amp;oq=pccoe+pune&amp;sll=18.815427,76.775144&amp;sspn=12.002265,14.128418&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=18.658505,73.769374&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"
+                    allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="160px"
+                    frameborder="0"></iframe>
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                </div>
+
+                <textarea placeholder="Enter your Query" name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Send" class="btn-send">
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
